@@ -28,7 +28,7 @@
           scope: ['profile', 'email'],
           scopePrefix: 'openid',
           scopeDelimiter: ' ',
-          requiredUrlParams: ['scope'],
+          requiredUrlParams: ['scope', 'access_type'],
           optionalUrlParams: ['display'],
           accessType: 'offline',
           display: 'popup',
